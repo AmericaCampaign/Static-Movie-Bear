@@ -1,29 +1,98 @@
 body {
   height: 1000px;
+  background-color: #ecf0f1;
+  margin-top: 70px;
 }
 
-#red {
-    height: 250px;
-    width: 100%;
-    background-color: red;
-    position: relative;
+.magic-container {
+  background-color: #bdc3c7;
+  padding-left: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.header-container {
+  position: relative;
+  height: 100px;
+  background-color: #95a5a6;
 
 }
 
-#blue {
-  height: 50px;
-  width: 50px;
-  background-color: blue;
+.hero-information {
+  /*border: 5px solid red;*/
+  width: 35%;
   position: absolute;
-  top: 40%;
-  left: 5%;
+  right: 100px;
+  bottom: 10px;
 }
 
-#orange {
-  height: 50px;
-  width: 50px;
-  background-color: orange;
+.bear-img-container {
+  border: 3px solid #34495e;
+  width: 35%;
+  height: 70%;
   position: absolute;
+  left: 50px;
+  top: 18px;
+  background-image: url("http://torrentsmovies.net/wp-content/uploads/2014/05/Bears-2014.jpg");
+  background-size: cover;
+}
+
+li {
+  list-style: none;
+  font-size: 24px;
+  line-height: 200%;
+  color: #2c3e50;
+}
+
+.header {
+  font-size: 34px;
+  margin: 0;
+}
+
+.sub-header {
+  font-size: 26px;
+  margin: 0;
+}
+
+.hero-information > h3 {
+  font-size: 33px;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.hero-information > p {
+  color: #2c3e50;
+}
+
+.center-title {
+  text-align: center;
+  color: #2c3e50;
+}
+
+em {
+  color: #e74c3c
+}
+
+
+.navbar {
+  position: fixed;
   top: 0;
-  right: 0;
+  left: 0;
+  background-color: #c0392b;
+  height: 44px;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav-title {
+  font-size: 36px;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.nav-sub-title {
+  color: white;
+  font-size: 24px;
 }
