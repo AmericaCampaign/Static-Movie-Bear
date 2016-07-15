@@ -1,18 +1,29 @@
 body {
-  background-color: #3498db;
+  height: 1000px;
 }
 
 #red {
-  height: 50px;
-  background-color: red;
+    height: 250px;
+    width: 100%;
+    background-color: red;
+    position: relative;
+
 }
 
 #blue {
   height: 50px;
+  width: 50px;
   background-color: blue;
+  position: absolute;
+  top: 40%;
+  left: 5%;
 }
 
 #orange {
   height: 50px;
+  width: 50px;
   background-color: orange;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
